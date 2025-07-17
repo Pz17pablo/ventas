@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d6d6d6;
+}
+
+
+.ofertas {
+    background-color: #ff0b0b;
+    padding: 30px;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #ffff00;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-producto {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #3b3b3b;
+    background-color: #ececec;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 320px;
+    transition: all 0.3s ease;
+}
+
+.card-producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.image label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff0b0b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.image .usos {
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: .7rem;
+    background-color: #790000;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.precio {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.precio del {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn button {
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #127e2a;
+}
